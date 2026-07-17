@@ -1,0 +1,30 @@
+{
+  "analysis_name": "4LAC-DR3 non-overlapping external-cohort transfer",
+  "primary_overlap_definition": {
+    "name_key": "normalized 4LAC Source_Name equals BlazEr1 FGL_SRC_NAME",
+    "position_key": "4LAC counterpart coordinate within 3 arcsec of BlazEr1 catalogue coordinate",
+    "union": true,
+    "name_preferred": true
+  },
+  "validation_label_definition": {
+    "catalogue": "frozen TeVCat",
+    "radius_arcsec": 180.0,
+    "firm_extragalactic": "source_type != UNID",
+    "attached_after_cohort_construction": true
+  },
+  "counts": {
+    "4lac_union": 3511,
+    "overlap_primary": 1165,
+    "exclusive_primary": 2346,
+    "position_only_overlap": 22,
+    "ambiguous_overlap_3arcsec": 0,
+    "firm_tevcat_overlap": 34,
+    "firm_tevcat_exclusive": 57
+  },
+  "input_sha256": {
+    "4lac_dr3_high.fits": "9e382cc9401557a84e938676292fbc9ada166632cf397e05d9f2d4ce3f11fa55",
+    "4lac_dr3_low.fits": "6f2b2244dd2a4134a935a7f58bbe00772d02cebf4158c05d7cdb4b2fee85a8d7",
+    "blazer1_catalog.fits": "d2b5ac1d8d00deacc687bd4a4a3f9a14240cc1f8889cc6b74f82a28a969eb75f",
+    "tevcat_standardized.csv": "a79aa465e7268d5cae2b58242971ed4cc3c86c14dd8e8860adecce8a0e6d85e6"
+  }
+}

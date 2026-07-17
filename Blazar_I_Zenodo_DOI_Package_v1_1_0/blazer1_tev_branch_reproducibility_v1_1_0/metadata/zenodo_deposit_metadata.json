@@ -1,0 +1,31 @@
+{
+  "title": "BlazEr1 X-ray-anchored TeV-favourable population branch: reproducibility and external-cohort transfer package",
+  "upload_type": "software",
+  "publication_date": "2026-07-17",
+  "description": "<p>Reproducibility package for the manuscript <em>An X-ray-anchored TeV-favourable population branch in eROSITA blazars</em>.</p><p>The release preserves the frozen 5865-source BlazEr1 analysis, exact public catalogue snapshots, active-score and follow-up catalogues, source code, statistical audits, figure source data, vector figures, and provenance metadata. It also contains a frozen external-cohort transfer audit based on 2346 non-overlapping 4LAC-DR3 sources and 57 firm extragalactic TeVCat associations. The X-ray/IR-independent frozen projection reaches AUROC 0.901 (95% stratified-bootstrap interval 0.863–0.935); the 944-source complete-case result is 0.888 (0.840–0.930).</p><p>The scores are empirical population coordinates and are not calibrated TeV detection probabilities. The 4LAC analysis is a transportability audit, not evidence that the X-ray hierarchy is universal across catalogue selections.</p>",
+  "creators": [
+    {
+      "name": "Turaev, S."
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "1.1.0",
+  "keywords": [
+    "eROSITA",
+    "BlazEr1",
+    "4LAC",
+    "Fermi-LAT",
+    "blazar",
+    "TeV",
+    "VHE",
+    "TeVCat",
+    "HSP",
+    "X-ray",
+    "multiwavelength",
+    "external-cohort transfer",
+    "reproducibility"
+  ],
+  "notes": "Original code is additionally licensed under MIT. Derived tables, figures, and original documentation are CC BY 4.0. Frozen third-party catalogue files retain their original archive terms and are not relicensed. No specific funding was received.",
+  "related_identifiers": []
+}

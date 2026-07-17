@@ -1,0 +1,202 @@
+{
+  "release": "1.1.0",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "release_version_file",
+      "value": "1.1.0",
+      "pass": true
+    },
+    {
+      "check": "config_version",
+      "value": "1.1.0",
+      "pass": true
+    },
+    {
+      "check": "radio_component_inactive",
+      "value": 0.0,
+      "pass": true
+    },
+    {
+      "check": "zenodo_metadata_version",
+      "value": "1.1.0",
+      "pass": true
+    },
+    {
+      "check": "parent_N",
+      "value": 5865,
+      "pass": true
+    },
+    {
+      "check": "known_TeV_N",
+      "value": 34,
+      "pass": true
+    },
+    {
+      "check": "Gold_tier",
+      "value": [
+        294,
+        21
+      ],
+      "pass": true
+    },
+    {
+      "check": "Gold_Silver_tier",
+      "value": [
+        880,
+        30
+      ],
+      "pass": true
+    },
+    {
+      "check": "core_AUROC_order",
+      "value": [
+        0.9696371085747733,
+        0.9396348091475396,
+        0.8760138383711694
+      ],
+      "pass": true
+    },
+    {
+      "check": "List_A_N",
+      "value": 243,
+      "pass": true
+    },
+    {
+      "check": "List_B_N",
+      "value": 163,
+      "pass": true
+    },
+    {
+      "check": "candidate_lists_disjoint",
+      "value": 0,
+      "pass": true
+    },
+    {
+      "check": "4LAC_union_N",
+      "value": 3511,
+      "pass": true
+    },
+    {
+      "check": "4LAC_BlazEr1_overlap_N",
+      "value": 1165,
+      "pass": true
+    },
+    {
+      "check": "4LAC_exclusive_N",
+      "value": 2346,
+      "pass": true
+    },
+    {
+      "check": "4LAC_exclusive_TeV_N",
+      "value": 57,
+      "pass": true
+    },
+    {
+      "check": "4LAC_overlap_ambiguity",
+      "value": 0,
+      "pass": true
+    },
+    {
+      "check": "frozen_34_identity_crosscheck",
+      "value": {
+        "check": "overlap_TeVCat_identity_equals_frozen_BlazEr1_34",
+        "N_overlap_firm_TeVCat": 34,
+        "N_frozen_BlazEr1_TeVCat": 34,
+        "N_identity_intersection": 34,
+        "PASS": true
+      },
+      "pass": true
+    },
+    {
+      "check": "4LAC_transfer_AUROC",
+      "value": 0.9011979490009429,
+      "pass": true
+    },
+    {
+      "check": "4LAC_transfer_denominator",
+      "value": [
+        2346,
+        57
+      ],
+      "pass": true
+    },
+    {
+      "check": "4LAC_complete_case_AUROC",
+      "value": 0.8879959598621083,
+      "pass": true
+    },
+    {
+      "check": "4LAC_complete_case_denominator",
+      "value": [
+        944,
+        51
+      ],
+      "pass": true
+    },
+    {
+      "check": "4LAC_Gold_recovery",
+      "value": [
+        29,
+        57
+      ],
+      "pass": true
+    },
+    {
+      "check": "4LAC_Gold_Silver_recovery",
+      "value": [
+        45,
+        57
+      ],
+      "pass": true
+    },
+    {
+      "check": "gamma_only_increment_not_overstated",
+      "value": [
+        0.8972814298743801,
+        0.9011979490009429
+      ],
+      "pass": true
+    },
+    {
+      "check": "primary_overlap_radius",
+      "value": 2346,
+      "pass": true
+    },
+    {
+      "check": "transfer_score_catalogue_rows",
+      "value": 2346,
+      "pass": true
+    },
+    {
+      "check": "figure_pdf_count",
+      "value": 8,
+      "pass": true
+    },
+    {
+      "check": "pdf_only_figures",
+      "value": [],
+      "pass": true
+    },
+    {
+      "check": "manuscript_tex_absent",
+      "value": [],
+      "pass": true
+    },
+    {
+      "check": "non_inferential_feasibility_products_absent",
+      "value": [],
+      "pass": true
+    },
+    {
+      "check": "frozen_4LAC_inputs_exist",
+      "value": true,
+      "pass": true
+    },
+    {
+      "check": "external_transfer_replay_script_exists",
+      "value": true,
+      "pass": true
+    }
+  ]
+}

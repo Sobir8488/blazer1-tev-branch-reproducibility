@@ -1,0 +1,56 @@
+project:
+  name: blazer1_tev_evolution
+  version: 1.1.0
+  random_seed: 8488
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  tables: tables
+  metadata: metadata
+  figures: figures
+
+matching:
+  blazer1_to_wise_arcsec: 3.0
+  blazer1_to_vlass_arcsec: 3.0
+  blazer1_to_tevcat_arcsec: 180.0
+  blazer1_to_fermi_arcsec_default: 300.0
+  prefer_fermi_association_name: true
+
+quality_gates:
+  require_blazer1_position: true
+  require_xray_flux_for_main_score: true
+  min_vlass_radio_snr: 5.0
+  max_wise_photometric_flag_severity: 2
+  secure_redshift_flags: [secure, spec, high_confidence, literature]
+
+score:
+  architecture: active_v0_4_4
+  normalization: available_active_component_weight
+  inactive_components:
+    radio_compactness:
+      legacy_weight: 0.75
+      reason: zero robust-standardized population dispersion in the frozen input
+  weights:
+    xray_brightness: 1.00
+    gamma_hardness: 1.00
+    gamma_variability: 0.35
+    wise_hsp_locus: 0.75
+    radio_compactness: 0.00
+    synchrotron_peak_proxy: 1.00
+    compton_dominance_penalty: 0.60
+    ebl_penalty: 0.80
+  tiers:
+    gold_percentile: 95
+    silver_percentile: 85
+    bronze_percentile: 70
+  ebl:
+    use_simple_proxy: true
+    reference_energy_tev: 1.0
+
+outputs:
+  master_catalogue: data/processed/master_blazer1_fermi_wise_vlass_tevcat.csv
+  score_catalogue: data/processed/tev_evolution_score_catalog.csv
+  candidate_catalogue: data/processed/tev_candidate_gold_silver_bronze.csv
+  validation_catalogue: data/processed/known_tev_validation_sample.csv

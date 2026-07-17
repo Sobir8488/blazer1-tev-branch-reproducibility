@@ -1,0 +1,10 @@
+stage,step,title,primary_content,external_input,claim_gate
+A,1,Frozen catalogue,"BlazEr1 parent N=5865; attached survey layers; frozen derivatives and provenance",none,label-free construction
+A,2,Resolve active features,"Robust transformations; seven non-degenerate components; missing terms omitted",none,label-free construction
+A,3,Freeze branch and tiers,"Compute S_TeV_branch; fixed 5/10/15/70 percent tiers",none,TeVCat excluded
+B,4,Retrospective validation,"34 TeVCat matches; enrichment; harmonized AUROC; paired inference",TeVCat snapshot,retrospective only
+B,5,Control selection history,"X-ray-only/no-X-ray; exact availability patterns; random shifts; matched controls",TeVCat labels,conditional interpretation
+B,6,Test robustness and identity,"Weight; leave-one-out; HSP; PCA; candidate-stability audits",TeVCat labels,diagnostic only
+C,7,Population interpretation,"X-ray gateway; coverage history; low-z high-peak branch; component asymmetry",validated summaries,population-level claim
+C,8,Follow-up products,"List A N=243; List B N=163; redshift attenuation and stability gates",ranked non-TeVCat sources,prioritization not detection
+C,9,External consistency checks,"Report-date chronology; observed-control pilot",IACT reports and outcomes,targetability not calibrated probability

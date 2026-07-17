@@ -1,0 +1,73 @@
+column,dtype,description
+lac_index,int64,Zero-based row index in the combined frozen 4LAC high+low union.
+lac_latitude_table,object,Originating 4LAC latitude table.
+Source_Name,object,Native 4LAC-DR3 field; see the original catalogue documentation.
+DataRelease,int64,Native 4LAC-DR3 field; see the original catalogue documentation.
+RAJ2000,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+DEJ2000,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+GLON,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+GLAT,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+Signif_Avg,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+Flux1000,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+Energy_Flux100,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+SpectrumType,object,Native 4LAC-DR3 field; see the original catalogue documentation.
+PL_Index,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+LP_Index,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+LP_beta,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+Flags,int64,Native 4LAC-DR3 field; see the original catalogue documentation.
+CLASS,object,Native 4LAC-DR3 field; see the original catalogue documentation.
+ASSOC1,object,Native 4LAC-DR3 field; see the original catalogue documentation.
+ASSOC_PROB_BAY,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+ASSOC_PROB_LR,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+Counterpart_Catalog,object,Native 4LAC-DR3 field; see the original catalogue documentation.
+RA_Counterpart,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+DEC_Counterpart,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+Unc_Counterpart,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+VLBI_Counterpart,object,Native 4LAC-DR3 field; see the original catalogue documentation.
+Redshift,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+SED_class,object,Native 4LAC-DR3 field; see the original catalogue documentation.
+nu_syn,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+nuFnu_syn,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+Variability_Index,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+Frac_Variability,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+Highest_energy,float64,Native 4LAC-DR3 field; see the original catalogue documentation.
+source_name_norm,object,Normalized Fermi source identifier used for exact-name overlap checking.
+name_match_n,int64,Number of BlazEr1 rows with the normalized Fermi identifier.
+name_matched,bool,True when a normalized Fermi-name overlap exists.
+name_match_blazer_index,float64,Matched BlazEr1 row index from the name key.
+nearest_blazer_index,int64,Nearest BlazEr1 row index by counterpart position.
+nearest_sep_arcsec,float64,Nearest 4LAC-counterpart to BlazEr1 separation in arcsec.
+position_matched_primary,bool,True when the counterpart position lies within 3 arcsec of BlazEr1.
+overlap_primary,bool,Union of exact-name and 3-arcsec position overlap.
+exclusive_primary,bool,True for the non-overlapping 4LAC transfer cohort.
+matched_blazer_index,float64,"Authoritative BlazEr1 match index, with name key preferred."
+match_basis,object,"name+position, name_only, position_only, or exclusive."
+name_match_sep_arcsec,float64,Position separation for the name-selected BlazEr1 row.
+name_position_discordant_gt3arcsec,bool,Name-selected counterpart lies beyond 3 arcsec.
+blazer1_SRC_NAME,float64,Attribute inherited from the matched BlazEr1 row; empty for exclusive sources.
+blazer1_FGL_SRC_NAME,float64,Attribute inherited from the matched BlazEr1 row; empty for exclusive sources.
+blazer1_FGL_COMMON_SRC_NAME,float64,Attribute inherited from the matched BlazEr1 row; empty for exclusive sources.
+blazer1_RAJ2000,float64,Attribute inherited from the matched BlazEr1 row; empty for exclusive sources.
+blazer1_DECJ2000,float64,Attribute inherited from the matched BlazEr1 row; empty for exclusive sources.
+blazer1_BLAZAR_CLASS,float64,Attribute inherited from the matched BlazEr1 row; empty for exclusive sources.
+blazer1_LAC_SED_CLASS,float64,Attribute inherited from the matched BlazEr1 row; empty for exclusive sources.
+blazer1_Z_MASTER,float64,Attribute inherited from the matched BlazEr1 row; empty for exclusive sources.
+blazer1_Z_SPEC,float64,Attribute inherited from the matched BlazEr1 row; empty for exclusive sources.
+blazer1_ML_FLUX_1,float64,Attribute inherited from the matched BlazEr1 row; empty for exclusive sources.
+blazer1_DET_LIKE_0,float64,Attribute inherited from the matched BlazEr1 row; empty for exclusive sources.
+duplicate_source_name,bool,Duplicate normalized 4LAC source name in the union.
+near_duplicate_counterpart_0p1arcsec,bool,Counterpart coordinate duplicates another 4LAC row within 0.1 arcsec.
+tevcat_nearest_row,int64,Nearest frozen TeVCat row index.
+tevcat_nearest_sep_arcsec,float64,Nearest frozen TeVCat angular separation in arcsec.
+tevcat_matched_180,bool,Nearest TeVCat entry lies within 180 arcsec.
+tevcat_name,float64,Attribute inherited from the nearest frozen TeVCat row when within the adopted radius.
+tevcat_alt_name,float64,Attribute inherited from the nearest frozen TeVCat row when within the adopted radius.
+tevcat_source_type,float64,Attribute inherited from the nearest frozen TeVCat row when within the adopted radius.
+tevcat_redshift,float64,Attribute inherited from the nearest frozen TeVCat row when within the adopted radius.
+tevcat_firm_extragalactic,bool,Matched within 180 arcsec and source type is not UNID.
+has_gamma_spectral_index,bool,Finite PL or LP spectral index is available.
+has_gamma_variability,bool,Finite catalogue variability measure is available.
+has_nu_syn,bool,Positive continuous synchrotron-peak frequency is available.
+has_redshift_4lac,bool,Finite 0<z<8 redshift is available.
+has_native_gamma_peak,bool,"Gamma spectral index, variability, and continuous peak are available."
+has_native_gamma_peak_z,bool,Native gamma+peak completeness plus redshift.

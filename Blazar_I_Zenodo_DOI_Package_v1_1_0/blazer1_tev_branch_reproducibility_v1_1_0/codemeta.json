@@ -1,0 +1,32 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "BlazEr1 X-ray-anchored TeV-favourable population branch: reproducibility and external-cohort transfer package",
+  "version": "1.1.0",
+  "datePublished": "2026-07-17",
+  "license": [
+    "https://spdx.org/licenses/MIT.html",
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "familyName": "Turaev",
+      "givenName": "S."
+    }
+  ],
+  "programmingLanguage": "Python 3.11",
+  "description": "Frozen reproducibility release for the BlazEr1 X-ray-anchored TeV-favourable population analysis and a non-overlapping 4LAC-DR3 external-cohort transfer audit. The release contains catalogue snapshots, source code, machine-readable catalogues, statistical products, vector figures, provenance records, and automated validation gates.",
+  "keywords": [
+    "eROSITA",
+    "BlazEr1",
+    "4LAC",
+    "Fermi-LAT",
+    "TeV",
+    "TeVCat",
+    "HSP",
+    "X-ray",
+    "multiwavelength",
+    "reproducibility"
+  ]
+}

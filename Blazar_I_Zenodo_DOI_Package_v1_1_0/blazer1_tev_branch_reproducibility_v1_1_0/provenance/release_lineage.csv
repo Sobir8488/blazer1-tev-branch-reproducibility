@@ -1,0 +1,7 @@
+release_layer,version,role,notes
+primary_statistical_analysis,v0.4.4,active-score production,"Primary tiers, AUROCs, branch summaries, candidate lists, chronology and observed-control outputs"
+score_architecture_conditioning,v0.4.3,exact availability-pattern audit,"Pattern-conditioned AUROCs and case concordance"
+scientific_hardening,v0.4.2,score definition and cross-match/coverage audits,"Exact score reconstruction, random shifts, coverage and X-ray balance"
+manuscript_and_figures,v0.5.3,pre-submission presentation release,"Figure regeneration, reference/provenance audit, float optimization and consistency checking"
+candidate_string_cleanup,v0.5.3,machine-readable product normalization,"Removed Python byte-string wrappers only; numerical values and row order unchanged"
+external_4lac_transfer,v1.1.0,non-overlapping external-cohort transportability audit,"3511-source 4LAC union, 1165-source BlazEr1 overlap, 2346-source exclusive cohort, 57 firm TeVCat positives, frozen no-X/no-IR score projection"

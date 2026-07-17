@@ -1,0 +1,9 @@
+manuscript_item,figure_file,source_data_file
+Figure 1,figure_01_tevcat_validation.pdf,figure_1_tier_boundary_validation.csv
+Figure 2,figure_02_harmonized_auc.pdf,figure_2_harmonized_auc.csv
+Figure 3,figure_03_coverage_conditioning.pdf,figure_3_coverage_conditioning.csv
+Figure 4,figure_04_ordered_branch.pdf,figure_4_ordered_branch.csv
+Figure 5,figure_05_component_contributions.pdf,figure_5_component_contributions.csv
+Figure 6,figure_06_hsp_sensitivity.pdf,figure_6_hsp_sensitivity.csv
+Figure 7,figure_07_followup_lists.pdf,figure_7_followup_lists.csv
+Workflow,figure_08_analysis_workflow.pdf,provenance/workflow_nodes_v0_5_4.csv

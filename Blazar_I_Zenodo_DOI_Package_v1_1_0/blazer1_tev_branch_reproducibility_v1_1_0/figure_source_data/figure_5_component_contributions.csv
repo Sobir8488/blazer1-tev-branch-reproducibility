@@ -1,0 +1,15 @@
+sample,component,percent
+Known TeV,X-ray brightness,37.646738
+Known TeV,Gamma hardness,6.168862
+Known TeV,Gamma variability,9.222498
+Known TeV,WISE/HSP locus,4.30026
+Known TeV,Synchrotron peak proxy,28.95632
+Known TeV,Compton-dominance penalty,6.221798
+Known TeV,Redshift/EBL penalty,7.483523
+Gold non-TeV,X-ray brightness,26.060757
+Gold non-TeV,Gamma hardness,2.833159
+Gold non-TeV,Gamma variability,0.784852
+Gold non-TeV,WISE/HSP locus,7.454924
+Gold non-TeV,Synchrotron peak proxy,52.936272
+Gold non-TeV,Compton-dominance penalty,2.957155
+Gold non-TeV,Redshift/EBL penalty,6.972881

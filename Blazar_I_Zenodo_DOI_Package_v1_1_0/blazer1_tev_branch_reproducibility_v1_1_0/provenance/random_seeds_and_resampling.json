@@ -1,0 +1,14 @@
+{
+  "random_seed": 8488,
+  "paired_bootstrap_draws": 5000,
+  "availability_pattern_permutations": 5000,
+  "random_shift_draws": 1000,
+  "weight_perturbation_draws": 1000,
+  "match_radii_arcsec": [
+    60,
+    90,
+    120,
+    180
+  ],
+  "adopted_tevcat_radius_arcsec": 180
+}

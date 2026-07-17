@@ -1,0 +1,26 @@
+column,dtype,description
+Source_Name,object,4LAC/Fermi source name.
+RAJ2000,float64,4LAC gamma-ray source right ascension in degrees (J2000).
+DEJ2000,float64,4LAC gamma-ray source declination in degrees (J2000).
+RA_Counterpart,float64,4LAC associated counterpart right ascension in degrees (J2000).
+DEC_Counterpart,float64,4LAC associated counterpart declination in degrees (J2000).
+lac_latitude_table,object,Originating 4LAC-DR3 latitude table: high or low.
+CLASS,object,4LAC source-class field.
+SED_class,object,4LAC synchrotron-peak class.
+Redshift,float64,4LAC redshift value; non-physical fill values are treated as missing in scoring.
+nu_syn,float64,4LAC continuous synchrotron-peak frequency in Hz.
+PL_Index,float64,4LAC power-law photon index used by the frozen hardness transform.
+Variability_Index,float64,4LAC variability index used by the frozen variability transform.
+Energy_Flux100,float64,4LAC energy flux field retained for catalogue context; not used by the released transfer coordinate.
+tevcat_firm_extragalactic,bool,Boolean firm extragalactic TeVCat label attached after cohort construction.
+tevcat_name,float64,Nearest frozen TeVCat source name within the adopted radius.
+tevcat_source_type,float64,Frozen TeVCat source-type label.
+tevcat_nearest_sep_arcsec,float64,Angular separation to the nearest frozen TeVCat entry in arcsec.
+S_gamma_hard_transfer,float64,Frozen robust-standardized gamma-ray hardness component.
+S_gamma_var_transfer,float64,Frozen robust-standardized gamma-ray variability component.
+S_nu_peak_transfer,float64,Frozen robust-standardized continuous synchrotron-peak component.
+S_EBL_transfer,float64,Frozen robust-standardized redshift/EBL penalty component.
+S_gamma_only_transfer,float64,Availability-weighted gamma hardness and variability score.
+S_gamma_peak_transfer,float64,"Availability-weighted gamma hardness, variability, and peak score."
+S_fully_no_x_no_ir_transfer,float64,"Primary availability-weighted transfer coordinate excluding X-ray, X-ray-dependent Compton dominance, and IR."
+S_fully_no_x_no_ir_complete,float64,Primary transfer coordinate retained only when all four transferred components are available.

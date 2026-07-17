@@ -1,0 +1,11 @@
+{
+  "primary_score": "S_TeV_branch_active_v0_4_4",
+  "source_column": "S_arch_active_available_v0_4_3",
+  "legacy_score": "S_arch_published_available_v0_4_3",
+  "inactive_component_removed": "radio_compactness",
+  "primary_selection_rationale": "mathematical activity gate, not TeVCat-label performance",
+  "catalogue_source": "./data/processed/tev_evolution_score_catalog_v0_4_3_score_architecture_augmented.csv",
+  "catalogue_output": "./data/processed/tev_evolution_score_catalog_v0_4_4_active_primary.csv",
+  "bootstrap_draws": 5000,
+  "seed": 8488
+}

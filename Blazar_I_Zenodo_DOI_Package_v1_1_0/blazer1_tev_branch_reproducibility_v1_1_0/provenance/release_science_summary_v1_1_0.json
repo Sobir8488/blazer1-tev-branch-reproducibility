@@ -1,0 +1,40 @@
+{
+  "release": "1.1.0",
+  "associated_manuscript": "An X-ray-anchored TeV-favourable population branch in eROSITA blazars",
+  "core_blazer1": {
+    "parent_N": 5865,
+    "firm_TeVCat_N": 34,
+    "Gold_N": 294,
+    "Gold_recovered": 21,
+    "Gold_Silver_N": 880,
+    "Gold_Silver_recovered": 30,
+    "AUROC_xray_only": 0.9696,
+    "AUROC_active": 0.9396,
+    "AUROC_no_xray": 0.876,
+    "List_A_N": 243,
+    "List_B_N": 163
+  },
+  "external_4lac_transfer": {
+    "union_N": 3511,
+    "overlap_N": 1165,
+    "exclusive_N": 2346,
+    "firm_TeVCat_N": 57,
+    "primary_AUROC": 0.9011979490009427,
+    "primary_CI95": [
+      0.8626918979405701,
+      0.9350059016041633
+    ],
+    "complete_case_N": 944,
+    "complete_case_positive_N": 51,
+    "complete_case_AUROC": 0.8879959598621083,
+    "Gold_recovered": [
+      29,
+      57
+    ],
+    "Gold_Silver_recovered": [
+      45,
+      57
+    ]
+  },
+  "claim_boundary": "The external result is a transportability audit. It does not establish universal X-ray dominance, calibrated detection probability, or incremental superiority over gamma-only ranking."
+}

@@ -1,0 +1,41 @@
+{
+  "analysis_status": "FROZEN_EXTERNAL_COHORT_TRANSFER",
+  "interpretation": "Transportability audit, not a calibrated TeV detection probability and not a test of universal X-ray dominance.",
+  "parent_N": 2346,
+  "firm_extragalactic_TeVCat_N": 57,
+  "frozen_standardisation_constants": {
+    "gamma_hardness": [
+      2.1249732,
+      0.3506331208799998
+    ],
+    "gamma_variability": [
+      1.3749357839135277,
+      0.41784132167306237
+    ],
+    "synchrotron_peak_proxy": [
+      12.61258948183325,
+      0.7762418119031917
+    ],
+    "ebl_penalty": [
+      0.2556103272531684,
+      0.15396162250134834
+    ]
+  },
+  "score_definition": {
+    "fully_no_x_no_ir": "Availability-weighted gamma hardness + gamma variability + synchrotron peak - redshift/EBL penalty; direct X-ray, X-ray-dependent Compton dominance, and WISE/IR are excluded.",
+    "weights": {
+      "gamma_hardness": 1.0,
+      "gamma_variability": 0.35,
+      "synchrotron_peak_proxy": 1.0,
+      "ebl_penalty": -0.8
+    },
+    "complete_case": "All four retained components required."
+  },
+  "tier_fractions": {
+    "Gold": 0.05,
+    "Gold+Silver": 0.15,
+    "Gold+Silver+Bronze": 0.3
+  },
+  "n_bootstrap": 20000,
+  "bootstrap_seed": 260717
+}

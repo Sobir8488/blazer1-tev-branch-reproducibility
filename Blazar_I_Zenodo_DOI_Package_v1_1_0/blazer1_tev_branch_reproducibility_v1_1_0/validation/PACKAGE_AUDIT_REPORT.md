@@ -1,0 +1,23 @@
+# Package audit report
+
+- Release: **1.1.0**
+- Package validation status: **PASS**
+- End-to-end fast replay status: **PASS**
+- Content files excluding manifest/inventory/tree: **256**
+- Uncompressed content size excluding manifest/inventory/tree: **184.2 MiB**
+- Machine-readable statistical tables: **96**
+- Final figure PDFs: **8**
+- Non-PDF figure formats: **0**
+- Manuscript TeX/PDF files: **excluded by design**
+- Core BlazEr1 full catalogue rows: **5865**
+- Candidate List A rows: **243**
+- Candidate List B rows: **163**
+- Frozen TeVCat rows: **322**
+- 4LAC union rows: **3511**
+- 4LAC-exclusive cohort rows: **2346**
+- 4LAC-exclusive firm TeVCat positives: **57**
+- External transfer score rows: **2346**
+- Non-inferential public half-sky X-ray/WISE feasibility outputs: **excluded**
+- SHA-256 manifest: `manifest_sha256.csv`
+- File inventory: `metadata/file_inventory.csv`
+- Package tree: `metadata/package_tree.txt`

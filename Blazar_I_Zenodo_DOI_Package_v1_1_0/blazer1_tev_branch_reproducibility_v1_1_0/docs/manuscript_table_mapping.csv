@@ -1,0 +1,7 @@
+manuscript_item,release_source_file,role
+Main 4LAC transfer table,tables/table_4lac_transfer_metrics_v1_1_0.csv,AUROC and bootstrap intervals
+Main 4LAC transfer table,tables/table_4lac_transfer_tier_enrichment_v1_1_0.csv,Gold and Gold+Silver recovery and enrichment
+4LAC transfer Methods/Results sample flow,tables/table_4lac_transfer_sample_flow_v1_1_0.csv,Cohort construction counts
+4LAC transfer Appendix,tables/table_4lac_overlap_radius_sensitivity_v1_1_0.csv,Overlap-radius robustness
+4LAC transfer Appendix,tables/table_4lac_transfer_conditioning_v1_1_0.csv,Redshift class and latitude conditioning
+4LAC transfer Appendix,tables/table_4lac_transfer_availability_null_v1_1_0.csv,Characterization-depth diagnostic

@@ -1,0 +1,42 @@
+column,dtype,non_null_n,description,example_value
+source_name_v044,object,5865,Normalized preferred source identifier.,b'4FGL_J0001.6-4156'
+SRC_NAME,object,5865,,b'4FGL_J0001.6-4156'
+IAUNAME,object,5865,,b'1eRASS J000132.7-415526'
+RAJ2000,float64,5865,Right ascension in degrees (J2000).,0.386479595833
+DECJ2000,float64,5865,Declination in degrees (J2000).,-41.9237053972
+BLAZAR_CLASS,object,5865,BlazEr1 source class.,b'bcu'
+branch_stage,object,5865,Demographic branch category; not a temporal evolutionary state.,HSP-like
+branch_stage_rank_active_v0_4_4,int64,5865,,3
+fermi_matched_clean,bool,5865,,True
+fermi_Source_Name,object,1310,,b'4FGL J0001.6-4156'
+fermi_PL_Index,float64,1310,,1.7810848
+fermi_Variability_Index,float64,1310,,25.609457
+fermi_Energy_Flux100,float64,1310,,3.2608037e-12
+ML_FLUX_1,float64,5865,,6.237407e-12
+redshift_adopted_clean,float64,5290,Adopted redshift after the fixed source hierarchy.,0.8660215139389038
+redshift_adopted_source_clean,object,5290,,Z_SPEC
+redshift_secure,bool,5865,Boolean secure-redshift flag.,True
+log_nu_peak_proxy,float64,2866,Mixed-source synchrotron-peak proxy in log10(Hz).,15.865000012125757
+log_nu_peak_proxy_method,object,2866,,LAC_LE_FREQ
+S_X,float64,5865,Robustly standardized X-ray brightness component.,4.232409462829542
+S_gamma_hard,float64,1310,,0.9807641649394891
+S_gamma_var,float64,1310,,0.0800892217340464
+S_IR,float64,4863,,1.1876394417452274
+S_nu_peak,float64,2866,,4.189945040860705
+S_CD_penalty,float64,1310,,-1.8120458605603889
+S_EBL_proxy,float64,5290,,0.0994164588086532
+S_xray_only_v0_1_8,float64,5865,,4.232409462829542
+S_no_xray_v0_1_8,float64,5662,,1.3518408312391128
+S_TeV_branch_active_v0_4_4,float64,5865,Primary active-component TeV-favourability branch coordinate.,2.05992251396998
+percentile_active_v0_4_4,float64,5865,Parent-sample percentile of the active coordinate.,96.47058823529412
+tier_active_v0_4_4,object,5865,Fixed-fraction Gold/Silver/Bronze/Low priority tier.,Gold
+is_gold_active_v0_4_4,bool,5865,,True
+is_gold_silver_active_v0_4_4,bool,5865,,True
+is_known_tev_clean,bool,5865,Retrospective TeVCat match flag; not used to construct the score.,False
+tevcat_name,object,34,,TeV J0904-575
+tevcat_sep_arcsec,float64,5865,,25248.70741109751
+PC1_active_v0_4_4,float64,5865,,5.676566998745554
+nearest_known_TeV_distance_active_v0_4_4,float64,5831,Nearest known-TeV distance in standardized component space.,1.7745552318933155
+tier_no_HSP_catalogue_flag_v0_4_4,object,5865,,Gold
+tier_continuous_peak_only_v0_4_4,object,5865,,Gold
+tier_no_peak_component_v0_4_4,object,5865,,Gold

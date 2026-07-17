@@ -1,0 +1,11 @@
+{
+  "frozen_input": "./data/processed/tev_evolution_score_catalog_v0_1_8_xray_control_augmented.csv",
+  "n_boot": 5000,
+  "seed": 8488,
+  "inactive_components": [
+    "radio_compactness"
+  ],
+  "recommended_primary_score_column": "S_arch_active_available_v0_4_3",
+  "legacy_score_column": "S_TeV_evo",
+  "decision_basis": "numerical score architecture before TeVCat comparison"
+}

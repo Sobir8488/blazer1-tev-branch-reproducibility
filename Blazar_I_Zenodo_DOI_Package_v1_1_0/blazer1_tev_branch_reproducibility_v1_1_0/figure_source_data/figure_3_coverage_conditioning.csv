@@ -1,0 +1,4 @@
+score,unrestricted,conditioned
+X-ray only,0.970472,0.916605
+Active branch,0.94098,0.88046
+No X-ray,0.876014,0.825484

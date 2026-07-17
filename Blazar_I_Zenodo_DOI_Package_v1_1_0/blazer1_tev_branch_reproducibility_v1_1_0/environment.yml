@@ -1,0 +1,21 @@
+name: blazer1_tev_branch_v1_1_0
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.11
+- numpy
+- pandas
+- scipy
+- astropy
+- astroquery
+- pyvo
+- requests
+- pyyaml
+- tqdm
+- matplotlib
+- scikit-learn
+- beautifulsoup4
+- jinja2
+- tabulate
+- pip

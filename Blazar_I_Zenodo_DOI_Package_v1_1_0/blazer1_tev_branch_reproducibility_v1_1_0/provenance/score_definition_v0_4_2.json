@@ -1,0 +1,25 @@
+{
+  "version": "0.4.2",
+  "score_name": "S_TeV_branch (catalogue column retained as S_TeV_evo for backward compatibility)",
+  "tier_percentiles": {
+    "gold_percentile": 95,
+    "silver_percentile": 85,
+    "bronze_percentile": 70
+  },
+  "robust_standardisation": "(x - median) / (1.4826 * median_absolute_deviation)",
+  "missing_component_rule": "omit missing component from numerator and available-weight denominator",
+  "weights": {
+    "xray_brightness": 1.0,
+    "gamma_hardness": 1.0,
+    "gamma_variability": 0.35,
+    "wise_hsp_locus": 0.75,
+    "radio_compactness": 0.75,
+    "synchrotron_peak_proxy": 1.0,
+    "compton_dominance_penalty": 0.6,
+    "ebl_penalty": 0.8
+  },
+  "reconstruction_max_abs_delta": 8.881784197001252e-16,
+  "degenerate_components": [
+    "radio_compactness"
+  ]
+}

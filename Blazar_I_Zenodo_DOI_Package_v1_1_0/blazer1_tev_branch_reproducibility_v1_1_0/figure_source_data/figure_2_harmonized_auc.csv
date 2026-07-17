@@ -1,0 +1,4 @@
+score,auc,ci_low,ci_high
+X-ray only,0.969637,0.940526,0.98901
+Active branch,0.939635,0.915964,0.961182
+No X-ray,0.876014,0.841548,0.907858

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this release, cite the version-specific Zenodo DOI and the associated manuscript."
+title: "BlazEr1 X-ray-anchored TeV-favourable population branch: reproducibility and external-cohort transfer package"
+type: software
+version: "1.1.0"
+date-released: 2026-07-17
+authors:
+  - family-names: "Turaev"
+    given-names: "S."
+license: CC-BY-4.0
+keywords:
+  - eROSITA
+  - BlazEr1
+  - 4LAC
+  - Fermi-LAT
+  - TeV blazars
+  - TeVCat
+  - reproducible research
