@@ -1,3 +1,4 @@
+10.5281/zenodo.21416005
 # BlazEr1 X-ray-anchored TeV-favourable population branch: reproducibility and external-cohort transfer package
 
 **Version:** 1.1.0  
